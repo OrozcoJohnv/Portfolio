@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background-color: #FAF9F5;
+  color: #141413;
+}
+
+/* ---------- HEADER ---------- */
+header,
+footer {
+  background-color: #262624;
+  color: #FAF9F5;
+}
+
+.top-header {
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  border-bottom: 1px solid #3D3D3A;
+}
+
+.logo {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 3px solid #D97757;
+  object-fit: cover;
+}
+
+.brand {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+nav {
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  color: #FAF9F5;
+  text-decoration: none;
+  padding: 23px 45px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: #D97757;
+}
+
+/* ---------- DIVIDERS ---------- */
+.header-divider,
+.footer-divider {
+  height: 3px;
+  background: linear-gradient(90deg, #D97757, #E8B9A0);
+}
+
+/* ---------- MAIN + CARD ---------- */
+main {
+  flex: 1;
+  padding: 55px 7%;
+  overflow: hidden;
+}
+
+.card {
+  height: 100%;
+  background-color: #F0EEE6;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.card h2 {
+  font-size: 42px;
+  color: #141413;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.tagline {
+  font-size: 20px;
+  font-style: italic;
+  color: #C6613F;
+  margin-bottom: 30px;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  text-align: center;
+  padding: 22px;
+  font-size: 14px;
+}
+
+/* ---------- AUDIO ---------- */
+figure {
+  display: block;
+  text-align: center;
+}
+
+audio {
+  display: block;
+  margin: 0 auto 12px auto;
+  width: 400px;
+  max-width: 100%;
+}
+
+figcaption {
+  font-style: italic;
+  color: #5E5D59;
+}
+
+/* ---------- TABLE ---------- */
+table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+caption {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+th, td {
+  border: 1px solid #D97757;
+  padding: 8px;
+}
+
+th {
+  background-color: #E8DFD0;
+}
+
+/* ---------- LIST ---------- */
+ul {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+/* ---------- FORM ---------- */
+form {
+  width: 80%;
+  text-align: left;
+}
+
+fieldset {
+  border: 1px solid #D97757;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+legend {
+  padding: 0 8px;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-top: 8px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 6px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 12px 34px;
+  background-color: #D97757;
+  color: #FAF9F5;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #C6613F;
+}
